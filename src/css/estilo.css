@@ -35,7 +35,33 @@ header h1{
 #post{
   border-top: 1px dashed black;
 }
+input{
+  max-width: 900px;
+  min-width: 200px;
+  border: none;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+ 
+}
+#btn-coment{
+  background-color: #574944;
+  color: #F08C65;
+ 
+}
+#btn-coment:hover{
+  background-color: #797878;
+  cursor: pointer;
+}
 
+textarea{
+  max-width: 900px;
+  min-width: 320px;
+  margin: 20px;
+  border: none;
+  display: block;
+
+}
 .imagem-responsiva{
   width: 100%;
  
