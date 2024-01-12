@@ -35,10 +35,26 @@ header h1{
 #post{
   border-top: 1px dashed black;
 }
+.coment-main{
+  max-width: 500px;
+  min-width: 200px;
+}
+.after-header-coment{
+  background-color: #797878;
+  box-shadow: 0px 0px 10px #797878;
+  font-size: 1.5em;
+  text-align: center;
+  color:#FFFF;
+  max-width: 500px;
+  min-width: 200px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px 10px 0px 0px;
+}
 input{
   max-width: 900px;
   min-width: 200px;
-  border: none;
+  border: 1px solid #797878;
   display: inline-block;
   padding: 20px;
   border-radius: 5px;
@@ -51,18 +67,19 @@ input{
  
 }
 #btn-coment:hover{
-  background-color: #574944;
+  background-color: #F08C65;
   color: #EBEBEB;
   cursor: pointer;
 }
 
 textarea{
+  border-radius: 5px;
   border: 5px;
   max-width: 900px;
   min-width: 320px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: none;
+  border: 1px solid #797878;
   display: block;
 
 }
@@ -104,7 +121,7 @@ padding: 10px;
 }
 
 main{
-  background-color: #EBEBEB;
+
   box-shadow: 0px 0px 10px #797878;
   max-width: 900px;
   min-width: 320px;
@@ -112,12 +129,11 @@ main{
   margin: auto;
 }
 main span{
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
-  color: #EBEBEB;
+  color:  #797878;
   cursor: pointer;
-  background-color: #574944;
-  padding: 10px;
+  padding: 5px;
 }
 main h1{
   padding: 10px;
@@ -150,17 +166,19 @@ padding: 10px;
 font-size: 1.2em;
 }
 #response{
-  background-color: #797878;
+  background-color:#F08C65;
   color: #574944;
   padding: 20px;
   margin: 10px;
   font-size: 1.5em;
+  border: none;
   border-radius: 5px;
 }
 #response:hover{
 background-color: #574944;
 color: #EBEBEB;
 cursor: pointer;
+transition: 1s;
 }
 footer p a:hover{
   color:#F08C65;
