@@ -32,9 +32,13 @@ header h1{
   font-weight: bold;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.356);
 }
+#post{
+  border-top: 1px dashed black;
+}
 
 .imagem-responsiva{
   width: 100%;
+ 
 }
 .navigation-header a{
   display: flex;
