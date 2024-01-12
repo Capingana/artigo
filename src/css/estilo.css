@@ -41,23 +41,27 @@ input{
   border: none;
   display: inline-block;
   padding: 20px;
-  margin: 20px;
+  border-radius: 5px;
  
 }
 #btn-coment{
-  background-color: #574944;
+  background-color: #797878;
   color: #F08C65;
+  font-size: 1.5em;
  
 }
 #btn-coment:hover{
-  background-color: #797878;
+  background-color: #574944;
+  color: #EBEBEB;
   cursor: pointer;
 }
 
 textarea{
+  border: 5px;
   max-width: 900px;
   min-width: 320px;
-  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: none;
   display: block;
 
