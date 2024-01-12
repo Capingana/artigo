@@ -1,0 +1,1 @@
+console.log("Testando meu proprio sistema construido com javascript..");
